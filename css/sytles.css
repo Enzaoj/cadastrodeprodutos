@@ -1,0 +1,44 @@
+body {
+    background-color: lavender;
+}
+h2 {
+    text-align: center;
+}
+div {
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+}
+#divlista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input {
+    margin: 0.2em;
+}
+.bcadastro, .balterar {
+    margin: 1em;
+    background-color: green;
+    color: white;
+    border-radius: 1em;
+}
+#bcancelar, .bexcluir {
+    margin: 1em;
+    background-color: blue;
+    color: white;
+    border-radius: 1em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+p {
+    text-align: center;
+}
+tr {
+    border: 4px black;
+}
+footer {
+    text-align: center;
+}

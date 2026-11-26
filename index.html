@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de produtos</title>
+    <link rel="stylesheet" href="/css/sytles.css">
+</head>
+<body>
+    <h2>Cadastro de produtos</h2>
+    <div>
+        <form id="form">
+            <label for="codigo">Código:</label>
+            <button onclick= codigo()>Gerar código</button>
+            <p id="codigovalue"></p>
+            <br>
+            <label for="produto">Produto:</label>
+            <input type="text" id="produto" name="produto" required>
+            <br>
+            <label for="descricao">Descrição:</label>
+            <input type="text" id="descricao" name="descricao" required>
+            <br>
+            <label for="preco">Preço:</label>
+            <input type="text" id="preco" name="preco" required>
+            <br>
+            <label for="foto">Foto:</label>
+            <input type="text" id="foto" name="foto" required>
+            <br>
+            <button class="bcadastro" type="submit">Cadastrar</button>
+            <button id="bcancelar" type="reset">Cancelar</button>
+        </form>
+    </div>
+    <div id="imagem"></div>
+    <p id="mensagem"></p> 
+    
+    <footer>&copy; Enzo Oliveira Cardelli - GU3062741</footer>
+    <script src="/js/cadastro.js"></script>
+</body>
+</html>
